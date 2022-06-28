@@ -83,6 +83,10 @@ p:hover{
     color: #fff;
 }
 
+.agregar-perfil:hover > .perfil-4{
+    background-image: url("../../img/perfilesHover.png");
+}
+
 .perfil-4{
     background-image:  url("../../img/agregarPerfil.png");
     background-size: 150px;
@@ -109,10 +113,6 @@ p:hover{
 .administrar-perfiles:hover{
     cursor: pointer;
     border: 1px solid #fff;
-}
-
-.administrar-perfiles:hover > span{
-    color: #fff;
 }
 
 span{
