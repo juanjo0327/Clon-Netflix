@@ -1,0 +1,186 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 96vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 30px;
+    height: 60px;
+}
+
+.schumacher{
+    background-image: url('../../img/schumacher.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.netflix{
+    display: inline-block;
+    color: red;
+    margin: 0;
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    color: #e5e5e5;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-top: 5px;
+    left: 0;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.menu{
+    width: 70%;
+    display: inline-block;
+    margin: 0;
+}
+
+.menu-derecha{
+    display: inline-block;
+    width: 20%;
+}
+
+.gg-search{
+    color: #e5e5e5;
+    display: absolute;
+    top: 26px;
+    left: 20px;
+}
+
+.icono{
+    display: inline-block;
+    margin-left: 2px;
+    width: 50px;
+}
+
+.icono-1{
+    position: absolute;
+    top: 2px;
+    height: 55px;
+}
+
+.icono-2{
+    position: absolute;
+    left: 1040px;
+    height: 55px;
+    top: 2px;
+}
+
+.icono-3{
+    position: absolute;
+    top: 2px;
+    height: 55px;
+    left: 1095px;
+}
+
+.icono-4{
+    position: absolute;
+    left: 1150px;
+    height: 55px;
+    top: 15px ;
+}
+
+.niños{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    color: #e5e5e5;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.gg-bell{
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    color: #e5e5e5;
+}
+
+.titulo-pelicula{
+    display: inline-block;
+    color: #fff;
+    width: 420px;
+    position: absolute;
+    top: 170px;
+    left: 35px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.pelicula{
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+}
+
+.nombre-pelicula{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    left: 35px;
+}
+
+.n{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.texto-pelicula{
+    display: inline-block;
+    font-size: 70px;
+}
+
+.boton-1{
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.botones{
+    display: inline-block;
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    top: 400px;
+    left: 30px;
+}
+
+.gg-play-button-o{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 22px;
+    height: 22px;
+}
+
+.reproducir{
+    display: inline-block;
+    margin-left: 60px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* .boton-2{
+    background-color: grey;
+    position: absolute;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+} */
