@@ -21,10 +21,9 @@ html{
 }
 
 .header{
-    position: absolute;
-    left: 30px;
-    top:20px;
-    margin: 0;
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 .izquierda .netflix{
@@ -43,7 +42,7 @@ html{
     position: absolute;
     background-color: black;
     opacity: 0.9;
-    width: 460px;
+    width: 440px;
     height: 600px;
     left: 400px;
     top: 80px;
@@ -51,18 +50,15 @@ html{
 }
 
 .sesion{
-    position: absolute;
     color: white;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    padding-left: 50px;
-    padding-top: 60px;
-    top: 60px;
-    left: 410px;
+    padding-left: 70px;
+    padding-top: 40px;
 }
 
 .input{
     display: block;
-    width: 320px;
+    width: 300px;
     height: 50px;
     background-color: #333;
     color: #8C8C8C;
@@ -72,28 +68,23 @@ html{
     font-weight: 700;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     border: 1px solid black;
-}
-
-.email{
-    position: absolute;
-    left: 460px;
-    top: 200px;
-}
-
-.password{
-    position: absolute;
-    left: 460px;
-    top: 270px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 .button{
-    position: absolute;
+    /* position: absolute; */
     background-color: #e50914 !important;
     color: #fff;
-    width: 334px !important;
-    left: 460px;
-    top: 360px;
+    width: 315px;
+    /* left: 460px;
+    top: 360px; */
     border-radius: 4px;
+    margin-top: 20px;
+}
+
+.inicia-sesion{
+    text-decoration: none;
 }
 
 .button:hover{
@@ -101,33 +92,24 @@ html{
 }
 
 .checkbox{
-    position: absolute;
-    left: 455px;
-    top: 417px;
     height: 18px;
     width: 18px;
+    margin-left: 70px;
+    margin-top: 15px;
 }
 
 .recuerdame{
-    position: absolute;
-    left: 480px;
-    top: 420px;
     color: #B3B3B3;
 }
 
 span{
-    position: absolute;
-    left: 480px;
-    top: 422px;
     color: #B3B3B3;
 }
 
 .ayuda{
-    position: absolute;
     color: #B3B3B3;
-    top: 422px;
-    left: 680px;
     text-decoration: none;
+    margin-left: 95px;
 }
 
 .ayuda:hover{
@@ -135,11 +117,10 @@ span{
 }
 
 .suscribete{
-    position: absolute;
-    width: 332px;
+    width: 320px;
     height: 25px;
-    top: 455px;
-    left: 460px;
+    margin-left: 68px;
+    margin-top: 50px;
 }
 
 .primera{
@@ -164,11 +145,10 @@ span{
 }
 
 .captcha{
-    position: relative;
-    width: 800px;
+    width: 300px;
     height: 100px;
-    top: 80px;
-    right: 19px;
+    margin-top: 30px;
+    margin-left: 70px;
 }
 
 .comprobar{
@@ -178,9 +158,6 @@ span{
 }
 
 .info{
-    position: absolute;
-    top: 438px;
-    left: 702px;
     font-size: 13px;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     color: blue;
@@ -188,7 +165,7 @@ span{
 
 footer{
     background-color: black;
-    width: 98.7vw;
+    width: 98.6vw;
     height: 250px;
     position: absolute;
     top: 750px;
@@ -198,12 +175,10 @@ footer{
 
 
 .preguntas{
-    position: relative;
-    top: 10px;
-    left: 100px;
     color: #757575;
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     width: 600px;
+    margin-left: 100px;
 }
 
 .llama{
